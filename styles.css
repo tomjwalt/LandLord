@@ -1,13 +1,21 @@
 /* styles.css */
 h1 {
     text-align: center;
-    color: blue;
+    color: darkgreen;
     font-family: roman;
     flex-direction: row;
+    ;
+}
+
+.img{
+  border: 1px;
+  height: 10px;
+  width: 10%;
+  ;
 }
 @font-face{
     font-family: roman;
-    src: url(../fonts/Roman\ Lemonade.ttf);
+    src: url(../fonts/modern-vision.ttf);
 }
 .container {
     display: flex;
@@ -17,13 +25,13 @@ h1 {
     display: flex 100 100 0;
 }
 
-
 div {
+    font-family: roman;
+    src: url(../fonts/modern-vision.ttf);
     display: flex;
     justify-content: center;
     background-color: white ;
-    color: green;
-    font-family: roman;
+    color: darkgreen;
     border:100px
     padding:100px;
     height: 100%;
@@ -36,18 +44,9 @@ div {
 
 }
 
-
-
-img {
-    border: 50%;
-    height: 500px;
-    width: 500px;
-    padding: 2px;
-    margin: 20%;
-}
-
 body {
     background-color: white;
+    background-image: url(../images/chevron.webp);
 }
 
 /* Add a black background color to the top navigation bar */
@@ -71,7 +70,7 @@ body {
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: grey;
-    color: black;
+    color: darkgreen;
   }
   
   /* Style the "active" element to highlight the current page */
@@ -108,22 +107,37 @@ body {
 
   h2 {
     text-align: center;
-    color: blue   }
+    color: darkgreen;
+    font-family: roman;
+    src: url(../fonts/modern-vision.ttf);
+
+
+    font   }
 
   h3 {
     text-align: center;
-    color: blue;
+    color:darkgreen;
+    font-family: roman;
+    src: url(../fonts/modern-vision.ttf);
   }
 
-  button {
-    font-size: 10px;
+  .button {
+    font-size: 5px;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
+    
 
   }
 
-  button{
-    display: block;
-    margin-right: auto;
+  .div{
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .p{
+    color: darkgreen;
+    text-align: center;
+    font-family: roman;
+    src: url(../fonts/modern-vision.ttf);
   }
