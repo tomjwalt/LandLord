@@ -1,0 +1,36 @@
+@font-face{
+    font-family: roman;
+    src: url(../fonts/OpenSans_Condensed-Bold.ttf);
+}
+
+h1{
+    text-align: center;
+    font-family: roman;
+    src: url(../fonts/OpenSans_Condensed-Bold.ttf);
+    color: darkgreen;
+}
+
+h2{
+    text-align: left;
+    color: darkgreen;
+    font-family: roman;
+    src: url(../fonts/OpenSans_Condensed-Bold.ttf);
+}
+
+h3{
+    text-align: left;
+    color: darkgreen;
+    font-family: roman;
+    src: url(../fonts/OpenSans_Condensed-Bold.ttf);
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container div {
+    background: grey;
+    border: 10px black;
+    height: 100px;
+    flex: 1 1 0%;
+}

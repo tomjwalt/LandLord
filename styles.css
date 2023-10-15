@@ -15,7 +15,7 @@ h1 {
 }
 @font-face{
     font-family: roman;
-    src: url(../fonts/modern-vision.ttf);
+    src: url(../fonts/OpenSans_Condensed-Bold.ttf);
 }
 .container {
     display: flex;
@@ -27,7 +27,7 @@ h1 {
 
 div {
     font-family: roman;
-    src: url(../fonts/modern-vision.ttf);
+    src: url(../fonts/OpenSans_Condensed-Bold.ttf);
     display: flex;
     justify-content: center;
     background-color: white ;
@@ -81,6 +81,7 @@ body {
   
   /* Style the search box inside the navigation bar */
   .topnav input[type=text] {
+    text: Enter a Location;
     float: center;
     padding: 6px;
     border: none;
@@ -109,7 +110,7 @@ body {
     text-align: center;
     color: darkgreen;
     font-family: roman;
-    src: url(../fonts/modern-vision.ttf);
+    src: url(../fonts/OpenSans_Condensed-Bold.ttf);
 
 
     font   }
@@ -118,7 +119,7 @@ body {
     text-align: center;
     color:darkgreen;
     font-family: roman;
-    src: url(../fonts/modern-vision.ttf);
+    src: url(../fonts/OpenSans_Condensed-Bold.ttf);
   }
 
   .button {
@@ -139,7 +140,7 @@ body {
     color: darkgreen;
     text-align: center;
     font-family: roman;
-    src: url(../fonts/modern-vision.ttf);
+    src: url(../fonts/OpenSans_Condensed-Bold.ttf);
   }
 
   .div{
