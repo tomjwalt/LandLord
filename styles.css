@@ -2,7 +2,7 @@
 h1 {
     text-align: center;
     color: darkgreen;
-    font-family: roman;
+    font-family: "Raleway", sans-serif;
     flex-direction: row;
     ;
 }
@@ -14,8 +14,7 @@ h1 {
   ;
 }
 @font-face{
-    font-family: roman;
-    src: url(../fonts/OpenSans_Condensed-Bold.ttf);
+  font-family: "Raleway", sans-serif;
 }
 .container {
     display: flex;
@@ -26,8 +25,7 @@ h1 {
 }
 
 div {
-    font-family: roman;
-    src: url(../fonts/OpenSans_Condensed-Bold.ttf);
+    font-family: "Raleway", sans-serif;
     display: flex;
     justify-content: center;
     background-color: white ;
@@ -109,8 +107,7 @@ body {
   h2 {
     text-align: center;
     color: darkgreen;
-    font-family: roman;
-    src: url(../fonts/OpenSans_Condensed-Bold.ttf);
+    font-family: "Raleway", sans-serif;
 
 
     font   }
@@ -118,8 +115,7 @@ body {
   h3 {
     text-align: center;
     color:darkgreen;
-    font-family: roman;
-    src: url(../fonts/OpenSans_Condensed-Bold.ttf);
+    font-family: "Raleway", sans-serif;
   }
 
   .button {
@@ -139,8 +135,7 @@ body {
   .p{
     color: darkgreen;
     text-align: center;
-    font-family: roman;
-    src: url(../fonts/OpenSans_Condensed-Bold.ttf);
+    font-family: "Raleway", sans-serif;
   }
 
   .div{

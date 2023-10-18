@@ -29,14 +29,8 @@ h3{
 }
 
 .flex-container div {
+    background: grey;
     border: 10px black;
     height: 100px;
     flex: 1 1 0%;
-}
-
-.logo{
-        background: grey;
-        border: 10px black;
-        height: 100px;
-        flex: 1 1 0%;
 }
